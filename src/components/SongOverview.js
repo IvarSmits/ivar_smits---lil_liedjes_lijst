@@ -122,6 +122,7 @@ class SongOverview extends Component {
       );
     });
 
+    // Clear the form fields by resetting state
     this.setState({
       newSong: {
         id: "",
@@ -130,7 +131,7 @@ class SongOverview extends Component {
         rating: 5,
         artist: "",
       },
-    }); // Clear the form fields by resetting state
+    });
   };
 
   render() {
